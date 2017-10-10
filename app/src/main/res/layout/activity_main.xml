@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.karan.cafecoffeeday.MainActivity">
+    <ImageView
+
+        android:src="@drawable/cafecoffeeday"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="23sp"
+        android:textStyle="italic"
+        android:text="Better To have ate and Drank Than never To have Loved at all"
+        android:textColor="@android:color/darker_gray"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:textSize="23sp"
+        android:textColor="@android:color/darker_gray"
+        android:textStyle="italic"
+        android:text="Contact us:9812756570
+ Email add:cafecoffeeday12@gmail.com
+ Address:NH-64,Rajpura,punjab 140417"
+        />
+
+
+</RelativeLayout>
